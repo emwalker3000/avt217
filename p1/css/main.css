@@ -1,0 +1,28 @@
+/***
+default style ruel set for css
+selector{
+  property: valeu:
+}
+************/
+
+body{
+  font-family: 'Reggae One', cursive;
+  background-color: black;
+  margin-top: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+h1 {
+  color: white;
+  text-align: center;
+
+}
+h2 {color: gray;
+
+}
+a{
+  color: #8F0A93;
+}
+a:hover{
+  color: #8A3ECC;
+}
