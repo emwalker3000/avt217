@@ -1,0 +1,197 @@
+body{
+  background-color: white;
+}
+.cSquare {
+  transform: rotate(0deg);
+  width: 200px;
+  height: 200px;
+  background: cyan;
+  border: 100px blue;
+  margin: 0px;
+  opacity: 1;
+  float: left;
+  border-radius: 0%;
+}
+.SpaceSquare {
+  transform: rotate(0deg);
+  width: 200px;
+  height: 200px;
+  background: none;
+  border: 100px;
+  margin: 0px;
+  opacity: 1;
+  float: left;
+  border-radius: 0%;
+}
+.oSquare {
+  transform: rotate(0deg);
+  width: 200px;
+  height: 200px;
+  background: orange;
+  border: 100px;
+  margin: 0px;
+  opacity: 1;
+  float: left;
+  border-radius: 0%;
+}
+.rSquare {
+  transform: rotate(0deg);
+  width: 200px;
+  height: 200px;
+  background: red;
+  border: 100px;
+  margin: 0px;
+  opacity: 1;
+  float: left;
+  border-radius: 0%;
+}
+
+.Blank {
+  transform: rotate(0deg);
+  width: 100px;
+  height: 200px;  background: white;
+  border: 10px none;
+  margin: 100px;
+  opacity: 1;
+  float: middle;
+  border-radius: 25%;
+}
+.rrectangle {
+  transform: rotate(25deg);
+  width: 1,920px;
+  height: 200px;  background: red;
+  border: 50px none;
+  margin: -25px;
+  opacity: .5;
+  float: middle;
+  border-radius: 25%;
+}
+.orectangle {
+  transform: rotate(25deg);
+  width: 1,920px;
+  height: 200px;  background: orange;
+  border: 50px none;
+  margin: -25px;
+  opacity: .5;
+  float: middle;
+  border-radius: 25%;
+}
+.yrectangle {
+  transform: rotate(25deg);
+  width: 1,920px;
+  height: 200px;  background: yellow;
+  border: 50px none;
+  margin: -25px;
+  opacity: .5;
+  float: middle;
+  border-radius: 25%;
+}
+.grectangle {
+  transform: rotate(25deg);
+  width: 1,920px;
+  height: 200px;  background: green;
+  border: 50px none;
+  margin: -25px;
+  opacity: .5;
+  float: middle;
+  border-radius: 25%;
+}
+.brectangle {
+  transform: rotate(25deg);
+  width: 1,920px;
+  height: 200px;  background: blue;
+  border: 50px none;
+  margin: -25px;
+  opacity: .5;
+  float: middle;
+  border-radius: 25%;
+}
+.irectangle {
+  transform: rotate(25deg);
+  width: 1,920px;
+  height: 200px;  background: indigo;
+  border: 50px none;
+  margin: -25px;
+  opacity: .5;
+  float: middle;
+  border-radius: 25%;
+}
+.vrectangle {
+  transform: rotate(25deg);
+  width: 1,920px;
+  height: 200px;  background: violet;
+  border: 50px none;
+  margin: -25px;
+  opacity: .5;
+  float: middle;
+  border-radius: 25%;
+}
+.brectange1 {
+  transform: rotate(15deg);
+  width: 1,920px;
+  height: 25px;  background: blue;
+  border: 1px solid black;
+  margin: 50px;
+  opacity: .50;
+  float: center;
+  border-radius: 0%;
+}
+.brectange2 {
+  transform: rotate(-15deg);
+  width: 1,920px;
+  height: 25px;  background: red;
+  border: 1px solid black;
+  margin: 50px;
+  opacity: .50;
+  float: center;
+  border-radius: 0%;
+}
+.gcircle1{
+  transform: rotate(0deg);
+  width: 350px;
+  height: 350px;  background: darkgray;
+  border: 80px solid lightgray;
+  margin: -40px;
+  opacity: .5;
+  float: left;
+  border-radius: 50%;
+}
+.gcircle2{
+  transform: rotate(0deg);
+  width: 350px;
+  height: 350px;  background: lightgray;
+  border: 80px solid darkgray;
+  margin: -40px;
+  opacity: .5;
+  float: left;
+  border-radius: 50%;
+}
+.rbrick {
+  transform: rotate(0deg);
+  width: 400px;
+  height: 200px; background: darkred;
+  border: 40px solid darkgray;
+  margin: -20px;
+  opacity: 1;
+  float: left;
+  border-radius: 0%;
+}
+.rbrickhalf {
+  transform: rotate(0deg);
+  width: 180px;
+  height: 200px; background: darkred;
+  border: 40px solid darkgray;
+  margin: -20px;
+  opacity: 1;
+  float: left;
+  border-radius: 0%;
+}
+.Blank {
+  transform: rotate(0deg);
+  width: 100px;
+  height: 200px;  background: white;
+  border: 10px none;
+  margin: 100px;
+  opacity: 1;
+  float: middle;
+  border-radius: 25%;

@@ -1,0 +1,13 @@
+body{
+  margin 0;
+  background-color: gold;
+}
+div{
+  width: 100px
+  height: 100px
+  background-color: magenta;
+  boader: 10px solid black;
+  margin: 25px;
+  opacity: .75;
+  float: left;
+}
