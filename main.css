@@ -1,0 +1,52 @@
+/****** general styles ******/
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px
+}
+body {
+  background-color: tomato;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/****** layout styles ******/
+header {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: none;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: none;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  background-color: none;
+  float: left;
+}
+/****** type styles ******/
+h1 {
+  font-size: 4rem;
+  text-align: left;
+  font-family: 'spacemono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+li {
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: 'spacemono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+h2 {
+  font-size: 4rem;
+  text-align: left;
+  font-family: 'spacemono', monospace;
+  font-weight: 700;
+}
