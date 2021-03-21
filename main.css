@@ -6,19 +6,19 @@ html {
   font-size: 16px
 }
 body {
-  background-color: tomato;
+  background-color: lightblue;
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
 
 /****** layout styles ******/
 header {
-  width: 75vw;
+  width: 85vw;
   margin: 25px auto;
   background-color: none;
 }
 main {
-  width: 75vw;
+  width: 85vw;
   margin: 25px auto;
   background-color: none;
   display: flow-root;
@@ -35,18 +35,44 @@ h1 {
   font-family: 'spacemono', monospace;
   font-weight: 700;
   text-transform: uppercase;
+  color: blue;
 }
+a{
+  color: darkblue;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+a:hover, a:active {
+  color: blue;
+}
+
+/****** list styles ******/
 li {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
   text-align: left;
-  font-family: 'spacemono', monospace;
-  font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
   list-style-type: none;
 }
-h2 {
-  font-size: 4rem;
-  text-align: left;
-  font-family: 'spacemono', monospace;
-  font-weight: 700;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/****** image styles ******/
+img {
+  max-width: 100%;
+}
+
+/****** media queries ******/
+@media screen and (max-width: 900px) {
+  .col {
+    width: 75%;
+    margin-bottom: 50px
+
+  }
 }
