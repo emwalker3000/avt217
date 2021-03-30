@@ -1,0 +1,36 @@
+
+Header{
+  width: 800px;
+  height: 100px;
+  background-color: pink;
+  margin-bottom: 25px;
+}
+
+nav{
+  width: 800px;
+  height: 25px;
+  background-color: gold;
+  margin-bottom: 25px;
+}
+main{
+  display: flow-root;
+  width: 800px;
+}
+.column{
+  width: 250px;
+  height: 400px;
+  background-color: black;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  float: left;
+}
+.margin{
+  width: 25px;
+  height: 25px;
+  background-color: gray;
+}
+footer{
+  width: 800px;
+  height: 100px;
+  background-color: limegreen;
+  margin-top: 25px;

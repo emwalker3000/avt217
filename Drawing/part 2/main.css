@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: black;
+}
+.bulb-base{
+  background-color: lightyellow;
+  height: 500px;
+  width: 500px;
+position: absolute;
+top: 180px;
+left: 70px;
+  border-radius: 50%;
+}
+.bulb-mid-base{
+  background-color: lightyellow;
+  height: 560px;
+  width: 350px;
+position: absolute;
+top: 180px;
+left: 150px;
+  border-radius: 50%;
+}
+.bulb-stem{
+  background-color: lightyellow;
+  height: 200px;
+  width: 200px;
+position: absolute;
+top: 550px;
+left: 220px;
+  border-radius: 25%;
+}
+.bulb-tread1 {
+  background-color: darkgray;
+  height: 35px;
+  width: 190px;
+position: absolute;
+top: 750px;
+left: 225px;
+  border-radius: 25%;
+  transform: rotate(12deg);
+}
+.bulb-tread2{
+  background-color: darkgray;
+  height: 35px;
+  width: 190px;
+position: absolute;
+top: 790px;
+left: 225px;
+  border-radius: 25%;
+  transform: rotate(12deg);
+
+}
+.bulb-tread3{
+  background-color: darkgray;
+  height: 35px;
+  width: 190px;
+position: absolute;
+top: 830px;
+left: 225px;
+  border-radius: 25%;
+  transform: rotate(12deg);
+}
+.bulb-caseing{
+  background-color: lightgray;
+  height: 150px;
+  width: 175px;
+position: absolute;
+top: 730px;
+left: 232px;
+border-radius: 25%;
+}
+.bulb-caseing-top{
+  background-color: lightgray;
+  height: 50px;
+  width: 175px;
+position: absolute;
+top: 720px;
+left: 232px;
+}
+.glow{
+  background-color: yellow;
+  height: 650px;
+  width: 650px;
+position: absolute;
+top: 110px;
+left: 225;
+opacity: 25%;
+  border-radius: 50%;
+}
