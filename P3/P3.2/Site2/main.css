@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+#animation {
+  width: 135px;
+  height: 1080px;
+  background: url('sprites/Dance DNA.png') left center;
+  background-size: cover;
+  animation: play 1s steps (8) infinite;
+  display: inline-block;
+}
+@keyframes play {
+  100% { background-position: -1080;}
+}

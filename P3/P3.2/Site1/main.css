@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: darkred
+}
+.upper_gums{
+  background-color: pink;
+  height: 250px;
+  width: 	1,920px;
+  border-radius: 0%;
+}
+.upper_teeth_base{
+  background-color: white;
+  height: 220px;
+  width: 	220px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+  margin-top: -200px;
+}
+.upper_teeth{
+  background-color: white;
+  height: 200px;
+  width: 	220px;
+  border-radius: 00%;
+  float: left;
+  margin-left: 20px;
+  margin-top: -125px;
+}
+.upper_mouth{
+  width: 1920px;
+  display: flow-root;
+}
+.middle_mouth{
+  display: flow-root;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -290px;
+  margin-bottom: : -290px;
+  margin-left: -400px;
+  margin-right: -400px;
+}
+.mouth_hole{
+  background-color: black;
+  opacity: 50%;
+  height: 500px;
+  width: 	800px;
+  border-radius: 50%;
+}
+.uvula{
+  display: flow-root;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.uvula_base{
+  background-color: darkred;
+  height: 200px;
+  width: 	100px;
+  border-radius: 50%;
+}

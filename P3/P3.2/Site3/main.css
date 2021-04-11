@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-image: url("Stars.jpg");
+  width: 1920px;
+  height: 1080;
+  display: flow-root;
+}
+.space1{
+float: left;
+margin-top: 120px;
+margin-left: 200px;
+width: 100px;
+height: 100px;
+}
+.space2{
+  transform: rotate(-15deg);
+float: left;
+margin-top: 300px;
+margin-left: -100px;
+width: 500px;
+height: 500px;
+}
+.space3{
+  image-orientation: (-60deg);
+float: left;
+margin-top: 300px;
+margin-left: -100px;
+width: 500px;
+height: 500px;
+}
+
+.satilite{
+  transform: rotate(-15deg);
+width: 200px;
+height: 200px;
+position: absolute;
+left: 600px;
+top: 100px;
+}
+.sun{
+width: 1000px;
+height: 1000px;
+background-color: orange;
+border-radius: 50%;
+position: absolute;
+right: -600px;
+top: -600px;
+}
+.Sun_glow{
+width: 1200px;
+height: 1200px;
+background-color: yellow;
+border-radius: 50%;
+opacity: 50%;
+position: absolute;
+right: -600px;
+top: -600px;
+}
+.Sun_glow_2{
+width: 1400px;
+height: 1400px;
+background-color: yellow;
+border-radius: 50%;
+opacity: 10%;
+position: absolute;
+right: -600px;
+top: -600px;
+}
+.glue{
+  width: 1920px;
+  height: 1080;
+  display: flow-root;
+}
