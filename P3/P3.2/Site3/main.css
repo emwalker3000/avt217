@@ -3,32 +3,46 @@
 }
 body {
   background-image: url("Stars.jpg");
+  overflow-x: hidden
   width: 1920px;
   height: 1080;
   display: flow-root;
 }
+
 .space1{
-float: left;
-margin-top: 120px;
-margin-left: 200px;
-width: 100px;
-height: 100px;
+  transform: rotate(-15deg);
+width: 75px;
+height: 75px;
+position: absolute;
+left: 900px;
+top: 350px;
 }
+
 .space2{
   transform: rotate(-15deg);
-float: left;
-margin-top: 300px;
-margin-left: -100px;
-width: 500px;
-height: 500px;
+width: 200px;
+height: 200px;
+position: absolute;
+left: 500px;
+top: 400px;
 }
+
 .space3{
-  image-orientation: (-60deg);
-float: left;
-margin-top: 300px;
-margin-left: -100px;
-width: 500px;
-height: 500px;
+  transform: rotate(-15deg);
+width: 25px;
+height: 25px;
+position: absolute;
+left: 800px;
+top: 150px;
+}
+
+.space4{
+  transform: rotate(-15deg);
+width: 50px;
+height: 50px;
+position: absolute;
+left: 800px;
+top: 200px;
 }
 
 .satilite{
@@ -36,40 +50,37 @@ height: 500px;
 width: 200px;
 height: 200px;
 position: absolute;
-left: 600px;
+left: 300px;
 top: 100px;
+}
+.spaceDNA{
+  transform: rotate(50deg);
+width: 100px;
+height: 100px;
+position: absolute;
+left: 400px;
+top: 50px;
+display: flow-root;
+}
+.dnahomeworld{
+  transform: rotate(18deg);
+width: 500px;
+height: 500px;
+position: absolute;
+left: -100px;
+bottom: -100px;
 }
 .sun{
 width: 1000px;
 height: 1000px;
-background-color: orange;
 border-radius: 50%;
 position: absolute;
-right: -600px;
+right: -400px;
 top: -600px;
-}
-.Sun_glow{
-width: 1200px;
-height: 1200px;
-background-color: yellow;
-border-radius: 50%;
-opacity: 50%;
-position: absolute;
-right: -600px;
-top: -600px;
-}
-.Sun_glow_2{
-width: 1400px;
-height: 1400px;
-background-color: yellow;
-border-radius: 50%;
-opacity: 10%;
-position: absolute;
-right: -600px;
-top: -600px;
+display: flow-root;
 }
 .glue{
   width: 1920px;
-  height: 1080;
+  height: 1080px;
   display: flow-root;
 }
